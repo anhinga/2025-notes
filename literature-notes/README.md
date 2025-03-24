@@ -17,5 +17,5 @@ _Compositional Generalization Across Distributional Shifts with Sparse Tree Oper
 
 https://github.com/psoulos/sdtm and more specifically https://github.com/psoulos/sdtm/blob/main/models.py
 
-Here is a discussion with GPT-4o on feasibility of adapting this software to create a PyTorch-differentiable
+Here is my initial discussion with GPT-4o on feasibility of adapting this software to create a PyTorch-differentiable
 GPU-friendly implementation of nested dictionaries: https://chatgpt.com/share/67dfc50e-9800-8010-9cb6-99281e48591f
