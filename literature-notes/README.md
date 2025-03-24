@@ -26,16 +26,16 @@ In the DMM world, program synthesis (circuit synthesis, DMM synthesis) is done v
 
 There are plenty of promising neural architecture search methods. 
 
-I explored NAS via optimization with sparsifying regularization and pruning in my JuliaCon 2023 talk: 
+1) I explored NAS via optimization with sparsifying regularization and pruning in my JuliaCon 2023 talk: 
 https://github.com/anhinga/DMM-synthesis-lab-journal/tree/main/JuliaCon2023-talk
 
-Beren Millidge has recently posted a critique of methods for finding sparse structure: 
+2) Beren Millidge has recently posted a critique of methods for finding sparse structure: 
 https://www.beren.io/2025-03-01-Why-Not-Sparse-Hierarchical-Graph-Learning/
 
 The most natural way to address the concerns he is describing seems to be to try to express DMMs as **series of DMMs**.
 In general, **exressing a matrix as a series** should be quite promising.
 
-One very promising recent NAS paper is Liquid AI paper, _STAR: Synthesis of Tailored Architectures_,
+3) One very promising recent NAS paper is Liquid AI paper, _STAR: Synthesis of Tailored Architectures_,
 https://arxiv.org/abs/2411.17800
 
 The idea is to use _T(X)*X_ as building blocks, where _X_ is a matrix, and _T_ is a transformation from
