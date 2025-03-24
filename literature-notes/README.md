@@ -40,4 +40,15 @@ https://arxiv.org/abs/2411.17800
 
 The idea is to use _T(X)*X_ as building blocks, where _X_ is a matrix, and _T_ is a transformation from
 some predefined set of transformations. That's a refreshing idea, and the particulars might differ
-quite a bit fron what is described in the paper.
+quite a bit from what is described in the paper. (It should be possible to accomodate rectangular matrices as well,
+if necessary.)
+
+## Prediction of intermediate state
+
+_Measuring In-Context Computation Complexity via Hidden State Prediction_ by Vincent Herrmann, Róbert Csordás, Jürgen Schmidhuber,
+https://arxiv.org/abs/2503.13431
+
+Conclusion ends with the phrase "We anticipate that the PHi loss could serve as a powerful
+objective for applications that lack direct external feedback". In reality, one can add loss expressing
+the ability to predict some of the internal state (such as, for example, attention coefficients) as a regularization (which
+should be added to the standard loss), and this should improve performance on "interesting tasks".
