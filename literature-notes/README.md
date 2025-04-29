@@ -52,3 +52,11 @@ Conclusion ends with the phrase "We anticipate that the PHi loss could serve as 
 objective for applications that lack direct external feedback". In reality, one can add loss expressing
 the ability to predict some of the internal state (such as, for example, attention coefficients) as a regularization (which
 should be added to the standard loss), and this should improve performance on "interesting tasks".
+
+## Novel optimizers and novel gradient-free methods
+
+_Diffusion Models are Evolutionary Algorithms_, Yanbo Zhang, Benedikt Hartl, Hananel Hazan, Michael Levin, https://arxiv.org/abs/2410.02543 
+
+A good overview: https://gonzoml.substack.com/p/diffusion-models-are-evolutionary
+
+Should be particularly helpful if one needs to avoid getting trapped in local minima.
