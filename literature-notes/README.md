@@ -72,3 +72,9 @@ _Muon Optimizer Accelerates Grokking_, Amund Tveit, Bjørn Remseth, Arve Skogvol
 A good overview: https://gonzoml.substack.com/p/muon-optimizer-accelerates-grokking
 
 Muon was an important factor in the progress achieved here in October 2024: https://github.com/KellerJordan/modded-nanogpt
+
+## Neural oscillaroty models
+
+_Oscillatory State-Space Models_, T. Konstantin Rusch, Daniela Rus, https://arxiv.org/abs/2410.03943 (ICLR oral)
+
+What remains is to study if synchronization emerges (if not, tweak the setup further, so that it does)
