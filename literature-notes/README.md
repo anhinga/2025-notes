@@ -77,4 +77,6 @@ Muon was an important factor in the progress achieved here in October 2024: http
 
 _Oscillatory State-Space Models_, T. Konstantin Rusch, Daniela Rus, https://arxiv.org/abs/2410.03943 (ICLR oral)
 
+https://github.com/tk-rusch/linoss
+
 What remains is to study if synchronization emerges (if not, tweak the setup further, so that it does)
