@@ -63,6 +63,8 @@ A good overview: https://gonzoml.substack.com/p/diffusion-models-are-evolutionar
 
 Should be particularly helpful if one needs to avoid getting trapped in local minima.
 
+See also _Heuristically Adaptive Diffusion-Model Evolutionary Strategy_, Benedikt Hartl, Yanbo Zhang, Hananel Hazan, Michael Levin, https://arxiv.org/abs/2411.13420
+
 _NoProp: Training Neural Networks without Back-propagation or Forward-propagation_, https://arxiv.org/abs/2503.24322
 
 ## Novel optimizers
