@@ -75,6 +75,8 @@ A good overview: https://gonzoml.substack.com/p/muon-optimizer-accelerates-grokk
 
 Muon was an important factor in the progress achieved here in October 2024: https://github.com/KellerJordan/modded-nanogpt
 
+_Modular Duality in Deep Learning_, Jeremy Bernstein, Laker Newhouse, https://arxiv.org/abs/2410.21265 and other work by https://jeremybernste.in/
+
 ## Neural oscillaroty models
 
 _Oscillatory State-Space Models_, T. Konstantin Rusch, Daniela Rus, https://arxiv.org/abs/2410.03943 (ICLR oral)
