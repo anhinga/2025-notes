@@ -84,3 +84,9 @@ _Oscillatory State-Space Models_, T. Konstantin Rusch, Daniela Rus, https://arxi
 https://github.com/tk-rusch/linoss
 
 What remains is to study if synchronization emerges (if not, tweak the setup further, so that it does)
+
+Sakana's new "Continuous Thought Machines" with fresh approach to synchronization: https://pub.sakana.ai/ctm/
+
+  * https://arxiv.org/abs/2505.05522, Luke Darlow, Ciaran Regan, Sebastian Risi, Jeffrey Seely, Llion Jones
+  * https://github.com/SakanaAI/continuous-thought-machines
+  * https://news.ycombinator.com/item?id=43959071
