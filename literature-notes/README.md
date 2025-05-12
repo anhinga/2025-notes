@@ -90,3 +90,4 @@ Sakana's new "Continuous Thought Machines" with fresh approach to synchronizatio
   * https://arxiv.org/abs/2505.05522, Luke Darlow, Ciaran Regan, Sebastian Risi, Jeffrey Seely, Llion Jones
   * https://github.com/SakanaAI/continuous-thought-machines
   * https://news.ycombinator.com/item?id=43959071
+  * https://x.com/hardmaru/status/1921751428508582329
