@@ -46,6 +46,16 @@ with respect to two pairs of indices, so that _T(X)*X_ is a matrix again, but of
 dimensions in general. So this accommodates rectangular matrices as well, it's the dimensions
 along which the tensor contractions are done which need to be coordinated.)
 
+>Cf. our 2017 paper having a dynamically computed tensor of rank 6 being contracted with
+a dynamically computed tensor of rank 3, yielding a dynamically computed tensor of rank 3.
+Then, in a "superfliud version" these numbers become respectively 4 and 2. The caveat, however,
+is that the elements of those tensors are not numbers, but tensor-like objects.
+>
+>And then the overall network structure in our paper is a bit different. T is applied to X, and the tensor-like objects
+inside X are something like "flexible tensors of infinite rank", and the rank 4 tensor of interest in
+a part of T(X) and it is getting applied to T(X). So there are interesting common motives, but these are
+different ways to structure things. We should meditate more on how they compare.
+
 ## Prediction of intermediate state
 
 _Measuring In-Context Computation Complexity via Hidden State Prediction_ by Vincent Herrmann, Róbert Csordás, Jürgen Schmidhuber,
