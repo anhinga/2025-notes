@@ -40,8 +40,11 @@ https://arxiv.org/abs/2411.17800
 
 The idea is to use _T(X)*X_ as building blocks, where _X_ is a matrix, and _T_ is a transformation from
 some predefined set of transformations. That's a refreshing idea, and the particulars might differ
-quite a bit from what is described in the paper. (It should be possible to accomodate rectangular matrices as well,
-if necessary.)
+quite a bit from what is described in the paper. (The particular way the paper is doing it is that
+_X_ is a matrix, but _T(X)_ is a tensor of rank 4, and the "product" is a tensor contraction
+with respect to two pairs of indices, so that _T(X)*X_ is a matrix again, but of two different
+dimensions in general. So this accommodates rectangular matrices as well, it's the dimensions
+along which the tensor contractions are done which need to be coordinated.)
 
 ## Prediction of intermediate state
 
